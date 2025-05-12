@@ -1,0 +1,18 @@
+.text-white {
+  color: white;
+}
+.ma-4 {
+  margin: 16px;
+}
+.pa-4 {
+  padding: 16px;
+}
+.price-badge {
+  border-radius: 12px;
+  background: white;
+  color: black;
+  padding: 4px;
+}
+.w-100 {
+  width: 100%;
+}

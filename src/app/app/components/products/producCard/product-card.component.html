@@ -1,7 +1,9 @@
-<mat-card>
+<mat-card class="w-100">
   <img mat-card-image [src]="product.thumbnail" [alt]="product.title" />
-  <mat-card-title>{{ product.title }}</mat-card-title>
-  <mat-card-subtitle>${{ product.price }}</mat-card-subtitle>
+  <mat-card-title class="text-white ma-4">{{ product.title }}</mat-card-title>
+  <mat-card-subtitle class="ma-4 price-badge"
+    ><p>${{ product.price }}</p></mat-card-subtitle
+  >
   <mat-card-content>
     <p class="text-white">{{ product.description }}</p>
   </mat-card-content>

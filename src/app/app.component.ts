@@ -5,12 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
-  imports: [
-    RouterOutlet,
-    ProductsComponent,
-    HttpClientModule, // ✅ Add this line
-  ],
-
+  imports: [RouterOutlet, ProductsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })
